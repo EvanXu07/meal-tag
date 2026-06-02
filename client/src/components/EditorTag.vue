@@ -29,7 +29,7 @@ async function captureTag() {
   if (!el)
     return
 
-  const canvas = await (await snapdom(el, { scale: 2, embedFonts: true })).toCanvas()
+  const canvas = await (await snapdom(el, { scale: 1.5, embedFonts: true })).toCanvas()
   tagImageUrl.value = canvas.toDataURL()
 }
 
