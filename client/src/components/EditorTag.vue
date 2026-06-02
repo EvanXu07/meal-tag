@@ -87,7 +87,7 @@ watch(() => ({ ...tagInfo }), () => {
 <style lang="scss" scoped>
 .editor-tag {
   width: 180px;
-  margin-top: 30px;
+  margin-top: 26px;
   border-radius: 8px;
   background-color: #f1b670;
   color: #321F0E;

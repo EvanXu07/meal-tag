@@ -29,7 +29,7 @@ const model = defineModel<string | number | null>()
 .editor-label {
   color: #F6C87D;
   font-size: 14px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   display: flex;
   align-items: center;
   img {
