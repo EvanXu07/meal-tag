@@ -9,4 +9,22 @@ body {
   justify-content: center;
   background-color: #442f13;
   font-family: 'Fusion Pixel Zh_hans';
+  cursor: url('@/assets/images/default.svg'), auto;
+}
+a,
+button,
+[role='button'],
+input[type='submit'],
+input[type='button'],
+input[type='file'],
+.px-button,
+.px-slider,
+.px-slider-thumb {
+  cursor: url('@/assets/images/pointer.svg'), pointer;
+}
+input[type='text'],
+input[type='number'],
+textarea,
+[contenteditable='true'] {
+  cursor: url('@/assets/images/text.svg'), text;
 }
